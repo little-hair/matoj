@@ -14,14 +14,15 @@ export default function FinalCTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+          <a
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105 flex items-center justify-center"
+            href="https://chat.whatsapp.com/BAA5BZoUvoyAHeZIfdWUbA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <MessageCircle className="mr-2" size={20} />
             Grupo no WhatsApp
-          </Button>
-          <Button className="bg-blue-800 hover:bg-blue-900 text-white font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105">
-            <Send className="mr-2" size={20} />
-            Canal no Telegram
-          </Button>
+          </a>
         </div>
 
         <div className="mt-12 bg-gray-900 bg-opacity-50 rounded-lg p-6 border border-blue-500 max-w-2xl mx-auto">

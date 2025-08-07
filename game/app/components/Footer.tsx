@@ -16,9 +16,8 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
-              <Shield className="text-3xl mr-2 text-[#4A90E2]" size={32} />
               <span className="text-2xl font-bold">
-                Game<span className="text-[#FFD700]">Trust</span>
+                MATOJ <span className="text-[#FFD700]">Games</span>
               </span>
             </div>
             <p className="text-gray-400 max-w-xs">
@@ -101,7 +100,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500">
-          <p>© 2023 GameTrust. Todos os direitos reservados.</p>
+          <p>© 2025 Matoj Games. Todos os direitos reservados.</p>
           <p className="mt-2 text-sm">
             Não afiliado a Riot Games, Valve, Activision Blizzard ou outras desenvolvedoras.
           </p>

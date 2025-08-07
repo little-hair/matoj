@@ -22,7 +22,7 @@ export default function Navigation() {
     <nav className="bg-gray-900 border-b border-gray-800 py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <img src="/logo.svg" alt="" className="mr-2" height={30}/>
+          <img src="/media/logo.jpg" alt="" className="mr-2 h-30" height={30}/>
           {/* <Shield className="text-3xl mr-2 text-[#4A90E2]" size={32} /> */}
           <span className="text-2xl font-bold">
             MATOJ <span className="text-[#FFD700]">Games</span>
